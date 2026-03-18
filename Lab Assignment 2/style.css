@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body{
+    background-color: rgb(3, 3, 110);
+}
+
+h1{
+    text-align: center;
+    color:rgb(189, 189, 250);
+}
+
+
+.xyz {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.weatherform,
+.info{
+    
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top:20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width:45%;
+    min-width: 300px;
+    height:310px
+}
+
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 85%;
+    margin-bottom: 30px;
+    border:1px solid rgb(102, 156, 211);
+    padding:10px;
+    
+}
+input[type="submit"]{
+    padding:10px 11px 10px 11px;
+    background-color: rgb(255, 128, 0);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+.err{
+
+    color:red;
+}
+
+
+.info p{
+    margin:5px;
+    background-color: rgb(250, 245, 245);
+    padding:7px;
+    border-left:4px solid orange;
+
+}
+
+.searchHistory button {
+    margin: 5px;
+    color:white;
+    background-color:rgb(255, 128, 0);
+    border:none;
+    padding:10px;
+    border-radius: 20px;
+    
+}
+
+.console{
+    grid-column: 1/-1;
+    background-color: white;
+    padding:10px 10px 200px 10px;
+    border-radius:10px;
+    margin:25px;
+}
+
+.console h2{
+    padding-left:10px;
+
+}
