@@ -3,6 +3,7 @@ const  form=document.querySelector("#weatherForm")
 const weatherInfo=document.querySelector(".info")
 const weatherHistory=document.querySelector(".searchHistory")
 const searchHistory =JSON.parse(localStorage.getItem("searchHistory")) || []
+const eventLog = document.querySelector("#eventLog")
 
 form.addEventListener('submit',async(event)=>{
     event.preventDefault()
@@ -11,7 +12,9 @@ form.addEventListener('submit',async(event)=>{
 })
 
 async function getData(city){    
-    if(city){
+    if(city){ 
+        logEvent("Sync Start")
+        logEvent("Async Start (fetching)")
         try{
             const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
             const data= await response.json()
@@ -31,6 +34,7 @@ async function getData(city){
                 searchHistory.push(city)
                 localStorage.setItem("searchHistory",JSON.stringify(searchHistory))
             }
+            logEvent("Async Data Received");
         }else{  
             weatherInfo.innerHTML=`
             <h3>Weather Info</h3>
@@ -44,6 +48,7 @@ async function getData(city){
             <h3>Weather Info</h3>
             <p >City not found.</p>`
         }
+         logEvent("Sync End")
 
     }
     
@@ -60,6 +65,11 @@ function showHistory(){
         weatherHistory.appendChild(li)
     })
     
+}
+function logEvent(message) {
+    const p = document.createElement("div")
+    p.textContent = message
+    eventLog.appendChild(p)
 }
 showHistory()
 

@@ -88,9 +88,19 @@ input[type="submit"]{
     padding:10px 10px 200px 10px;
     border-radius:10px;
     margin:25px;
+    height:300px;
 }
 
 .console h2{
     padding-left:10px;
+    margin-bottom:10px;
 
+}
+
+.event {
+    background: #1f2b5b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 200px;
 }
