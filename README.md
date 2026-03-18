@@ -4,5 +4,5 @@ In this lab assignment, we used HTML, CSS & Vanilla JavaScript to make an Async 
 
 ## 📸 Project Screenshots
 
-![SS1](Lab-Assignment-2/Images/ss1.png)
-![SS2](Lab-Assignment-2/Images/ss2.png)
+![SSa](Lab-Assignment-2/Images/ss1.png)
+![SSb](Lab-Assignment-2/Images/ss2.png)
