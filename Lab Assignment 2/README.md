@@ -5,6 +5,6 @@ In this lab assignment, we used HTML, CSS & Vanilla JavaScript to make an Async 
 
 ## 📸 Project Screenshots
 
-<img src="Lab Assignment 2/Image/SS1.png" width="300"/>
-<img src="Lab Assignment 2/Image/SS2.png" width="300"/>
-<img src="Lab Assignment 2/Image/SS3.png" width="300"/>
+<img src="Image/SS1.png" width="300"/>
+<img src="Image/SS2.png" width="300"/>
+<img src="Image/SS3.png" width="300"/>
