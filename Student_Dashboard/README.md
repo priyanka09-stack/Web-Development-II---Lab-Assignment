@@ -18,5 +18,5 @@ JavaScript (JSX)
 CSS
 
 #Project Screenshots
-![Student Scoreboard UI](Student Scoreboard\img\Screenshot (1).png)
-<img src="Student Scoreboard\img\Screenshot (1).png" width="700"/>
+![Student Dashboard UI](Student_Dashboard/img/ss.png)
+<img src="Student_Dashboard/img/ss.png" width="700"/>
