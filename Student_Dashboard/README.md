@@ -18,5 +18,5 @@ JavaScript (JSX)
 CSS
 
 #Project Screenshots
-![Student Dashboard UI](Student_Dashboard/img/ss.png)
-<img src="Student_Dashboard/img/ss.png" width="700"/>
+
+![alt text](ss.png)
